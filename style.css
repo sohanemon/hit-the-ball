@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+body {
+  background: #000;
+}
 .field {
   width: 100vw;
   height: 70vh;
