@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+.field {
+  width: 100vw;
+  height: 70vh;
+  background-color: green;
+  display: flex;
+  position: relative;
+}
+.stump {
+  transform: scale(0.9);
+  position: relative;
+  top: 50px;
+}
+.bat {
+  transition: transform 0.2s ease-in;
+}
+.field:hover .bat {
+  transform: rotate(-32.5deg);
+  transform-origin: top right;
+}
+.field:hover .ball {
+  transform: translate(700px, -100px);
+}
+
+section img {
+  margin-top: 10%;
+  width: 200px;
+}
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f01212;
+  top: 90%;
+  font-size: 8px;
+  font-weight: bolder;
+  position: relative;
+
+  transition: transform 2s ease-out 0.2s;
+}
